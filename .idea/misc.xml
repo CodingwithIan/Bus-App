@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/drawable/background_oval.xml" value="0.133" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/drawable/cardview_background.xml" value="0.133" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/drawable/description_selector.xml" value="0.133" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/drawable/ic_money.xml" value="0.133" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/drawable/main_background.xml" value="0.133" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/drawable/money_selector.xml" value="0.133" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_add_bus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_add_driver.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_add_student.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_add_transaction.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_bus_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_bus_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_driver_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_driver_details2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_driver_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_home_student.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_main_holder.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_new_dash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_student_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_user_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_view_bus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/activity_view_drivers.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/bus_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/driver_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/item_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/partial_action.xml" value="0.1" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/partial_main_activity.xml" value="0.25" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/profile_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/student_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/layout/transaction_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nick/AndroidStudioProjects/BusApp2/app/src/main/res/menu/bottom_nav.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

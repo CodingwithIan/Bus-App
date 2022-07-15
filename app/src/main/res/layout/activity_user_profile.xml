@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".auth.UserProfile">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:indeterminateBehavior="cycle"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+            <TextView
+                android:text="Enter Company Details"
+                android:gravity="center"
+                android:fontFamily="@font/alfa_slab_one"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Company Name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/companyNameEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold|normal" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Company Email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/companyEmailEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold|normal" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Company Contact">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/companyContactEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold|normal" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Kra Pin">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/krapinEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold|normal" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/button_choose_image"
+                    android:text="Choose Logo"
+                    app:backgroundTint="#2996ED"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/chooseImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"/>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/upLoadBtn"
+                android:layout_margin="16dp"
+                android:text="Register"
+                app:backgroundTint="#208E24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

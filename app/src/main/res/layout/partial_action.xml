@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/myStudents"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+
+        android:src="@drawable/pupil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Students"
+        app:layout_constraintEnd_toEndOf="@+id/myStudents"
+        app:layout_constraintStart_toStartOf="@+id/myStudents"
+        app:layout_constraintTop_toBottomOf="@+id/myStudents" />
+
+    <ImageButton
+        android:id="@+id/myDrivers"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="64dp"
+        android:background="@drawable/dere"
+
+        app:layout_constraintStart_toEndOf="@+id/myStudents"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Drivers"
+        app:layout_constraintEnd_toEndOf="@+id/myDrivers"
+        app:layout_constraintStart_toStartOf="@+id/myDrivers"
+        app:layout_constraintTop_toBottomOf="@+id/myDrivers" />
+
+    <ImageButton
+        android:id="@+id/myVehicles"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="64dp"
+        android:background="@drawable/bus_cardview"
+
+        app:layout_constraintStart_toEndOf="@+id/myDrivers"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Vans"
+        app:layout_constraintEnd_toEndOf="@+id/myVehicles"
+        app:layout_constraintStart_toStartOf="@+id/myVehicles"
+        app:layout_constraintTop_toBottomOf="@+id/myVehicles" />
+
+    <ImageButton
+        android:id="@+id/payments"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="64dp"
+        android:background="@drawable/pesa"
+
+        app:layout_constraintStart_toEndOf="@+id/myVehicles"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Payments"
+        app:layout_constraintEnd_toEndOf="@+id/payments"
+        app:layout_constraintStart_toStartOf="@+id/payments"
+        app:layout_constraintTop_toBottomOf="@+id/payments" />
+</androidx.constraintlayout.widget.ConstraintLayout>

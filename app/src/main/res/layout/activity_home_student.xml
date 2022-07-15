@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iconbus"
+    tools:context=".studenthandler.HomeStudent">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bangers"
+            android:gravity="center"
+            android:text="Bus Manager"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnViewAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Students"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/btnAddInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Add Student "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
